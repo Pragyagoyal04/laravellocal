@@ -7,8 +7,7 @@
                   <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
         <div class="row">
             <div class="col-md-6">
-                <br/><label>Name</label>
-                <input type="text" name="name" class="form-control">
+                
               <input type="file" name="image" class="form-control" id="upload" accept="image/*/*" >
             
                 <br/>
